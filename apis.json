@@ -1,0 +1,90 @@
+{
+	"name": "Streadata.io API Gallery - Inbox",
+	"description": "This is a repository of inbox APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/inbox.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://inbox.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AT&T Dev Program",
+			"x-api-slug": "att-dev-program",
+			"description": "AT&T Official Site. Premium entertainment, the latest cell phones & tablets, unlimited data plans, and high-speed internet. Join the nations best network today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg",
+			"humanURL": "http://att.com",
+			"baseURL": "https:///",
+			"tags": "Inbox",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inbox/master/_listings/att-dev-program/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Inbox",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inbox/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "Inbox",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inbox/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Inbox",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inbox/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Inbox",
+	"include": [
+		{
+			"name": "AT&T Dev Program",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inbox/master/_listings/att-dev-program/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inbox/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inbox/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/inbox/master/_listings/plentymarkets/apis.yaml"
+		}
+	]
+}
